@@ -3,7 +3,7 @@
 
 默认主题更改进度条颜色示例
 
-    <style>
+<style>
 .ui.fine.progress> .bar {
     background-color: pink !important;
 }
