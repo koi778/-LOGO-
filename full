@@ -2,8 +2,8 @@
 /* 屏幕适配 */
 @media only screen and (min-width: 1200px) {
     .ui.container {
-    width: 80% !important;
-}
+        width: 80% !important;
+    }
 }
  
 @media only screen and (max-width: 767px) {
@@ -30,8 +30,15 @@ body {
     background-position: top !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
-    background-image: url(https://t2.picb.cc/2022/11/03/6PnhdL.jpg) !important;
+    background-image: url(https://iili.io/H4GFaup.jpg) !important;
     font-family: Arial,Helvetica,sans-serif !important;
+}
+
+/* 移动端背景图片 */
+@media only screen and (max-width: 767px) {
+    body {
+        background-image: url(https://iili.io/H4Gfe4e.jpg) !important;
+    }
 }
  
 /* 导航栏 */
